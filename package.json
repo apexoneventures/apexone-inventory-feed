@@ -1,0 +1,31 @@
+{
+  "name": "apexone-inventory-feed",
+  "version": "1.0.0",
+  "description": "ApexOne Inventory Feed API - Multi-dealership inventory management",
+  "main": "apexone-inventory-server.js",
+  "scripts": {
+    "start": "node apexone-inventory-server.js",
+    "dev": "nodemon apexone-inventory-server.js"
+  },
+  "keywords": [
+    "inventory",
+    "dealership",
+    "CSV",
+    "API",
+    "apexone"
+  ],
+  "author": "ApexOne AI",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "csv-parse": "^5.5.0",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
